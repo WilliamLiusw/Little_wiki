@@ -1,0 +1,944 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>图像绘制 - My Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.30686662.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="My Wiki" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              My Wiki
+            </span>
+            <span class="md-header-nav__topic">
+              
+                图像绘制
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="My Wiki" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    My Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="首页" class="md-nav__link">
+      首页
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      python相关
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        python相关
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../numpy/" title="数组用法" class="md-nav__link">
+      数组用法
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        图像绘制
+      </label>
+    
+    <a href="./" title="图像绘制" class="md-nav__link md-nav__link--active">
+      图像绘制
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    基础命令
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    绘制折线图
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    简单图
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    简单折线图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    简单直方图
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    标题、横纵轴设置
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    标题文字
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    修改坐标轴刻度为文字
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    坐标轴限制
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    图例
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    和折线一起定义
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    和折线分开定义
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    折线样式
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    颜色
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    线条样式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    粗细
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marker" class="md-nav__link">
+    marker
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    各种参数分开设计
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    各种参数整体设计
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    图像窗口和布局
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../other/" title="其他" class="md-nav__link">
+      其他
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Linux相关
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Linux相关
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Linux/linux/" title="Linux命令行" class="md-nav__link">
+      Linux命令行
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    基础命令
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    绘制折线图
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    简单图
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    简单折线图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    简单直方图
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    标题、横纵轴设置
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    标题文字
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    修改坐标轴刻度为文字
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    坐标轴限制
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    图例
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    和折线一起定义
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    和折线分开定义
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    折线样式
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    颜色
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    线条样式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    粗细
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marker" class="md-nav__link">
+    marker
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    各种参数分开设计
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    各种参数整体设计
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    图像窗口和布局
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">图像绘制</h1>
+<p>本节使用的package是Python的matplotlib.pyplot：</p>
+<pre><code>import matplotlib.pyplot as plt
+</code></pre>
+<h2 id="_2">基础命令</h2>
+<pre><code>plt.figure() # 新建图像窗口
+plt.show() # 展示图像
+plt.savefig(path) # 存储图像
+</code></pre>
+<h2 id="_3">绘制折线图</h2>
+<h3 id="_4">简单图</h3>
+<h4 id="_5">简单折线图</h4>
+<pre><code>plt.plot(x,y) #x为横轴，y为纵轴，两个数组应大小一致
+plt.show()
+</code></pre>
+<h4 id="_6">简单直方图</h4>
+<pre><code>plt.bar(x,y) #x为横轴，y为纵轴，两个数组应大小一致
+plt.show()
+</code></pre>
+<h3 id="_7">标题、横纵轴设置</h3>
+<h4 id="_8">标题文字</h4>
+<pre><code>plt.title(titlename)
+plt.xlabel(name)
+plt.ylabel(name)
+</code></pre>
+<h4 id="_9">修改坐标轴刻度为文字</h4>
+<pre><code>scale_ls = range(7)
+index_ls = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+plt.xticks(scale_ls,index_ls)  # 可以设置坐标字
+# 同理，也有yticks()
+</code></pre>
+<h4 id="_10">坐标轴限制</h4>
+<pre><code>pl.xlim(xmin, xmax)  # 限定横轴的范围
+pl.ylim(ymin, ymax)  # 限定纵轴的范围
+</code></pre>
+<h3 id="_11">图例</h3>
+<h4 id="_12">和折线一起定义</h4>
+<pre><code>plt.plot(x1,y1,label=name1)
+plt.plot(x2,y2,label=name2)
+plt.legend()
+</code></pre>
+<p>其中legend函数可以接受一个一个loc关键字参数来设定图例的位置，可取值为数字或字符串：</p>
+<table>
+    <tr>
+        <th bgcolor=#000F00> 0 </th>  <th> 'best' </th>
+        <th> 1 </th>  <th> 'upper right' </th>
+        <th> 2 </th>  <th> 'upper left' </th>
+    </tr>
+    <tr>
+        <th> 3 </th>  <th> 'lower left'</th>
+        <th> 4 </th>  <th> 'lower right'</th>
+        <th> 5 </th>  <th> 'right' </th>
+    </tr>
+    <tr>
+        <th> 6 </th>  <th> 'center left' </th>
+        <th> 7 </th>  <th> 'center right' </th>
+        <th> 8</th>  <th> 'lower center' </th>
+    </tr>
+    <tr>
+        <th> 9 </th>  <th> 'upper center' </th>
+        <th> 10 </th>  <th> 'center' </th>
+    </tr>
+</table>
+
+<h4 id="_13">和折线分开定义</h4>
+<pre><code>plt.plot(x1,y1)
+plt.plot(x2,y2)
+plt.legend(name1,name2)
+</code></pre>
+<h3 id="_14">折线样式</h3>
+<h4 id="_15">颜色</h4>
+<p>plot方法的关键字参数color(或c)用来设置线的颜色，有四种设置方式：</p>
+<ul>
+<li>#rrggbb</li>
+<li>(r, g, b) 或 (r, g, b, a)，其中 r g b a 取均为[0, 1]之间</li>
+<li>[0, 1]之间的浮点数的字符串形式，表示灰度值。0表示黑色，1表示白色</li>
+<li>颜色名称或简写</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>b: blue</th>
+<th>g: green</th>
+<th>r: red</th>
+<th>k: black</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>c: cyan</td>
+<td>m: magenta</td>
+<td>y: yellow</td>
+<td>w: white</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_16">线条样式</h4>
+<p>plot方法的关键字参数linestyle(或ls)用来设置线的样式。可取值为：</p>
+<ul>
+<li>-   solid</li>
+<li>--  dashed</li>
+<li>-.  dashdot</li>
+<li>:   dotted</li>
+<li>"," None</li>
+</ul>
+<h4 id="_17">粗细</h4>
+<p>设置plot方法的关键字参数linewidth(或lw)可以改变线的粗细，其值为浮点数。</p>
+<h3 id="marker">marker</h3>
+<h4 id="_18">各种参数分开设计</h4>
+<p>以下关键字参数可以用来设置marker的样式：</p>
+<ul>
+<li>marker</li>
+<li>markeredgecolor 或 mec</li>
+<li>markeredgewidth 或 mew</li>
+<li>markerfacecolor 或 mfc</li>
+<li>markerfacecoloralt 或 mfcalt</li>
+<li>markersize 或 ms</li>
+</ul>
+<p>其中marker可取值为：</p>
+<table>
+<thead>
+<tr>
+<th>'.': point marker</th>
+<th>',': pixel marker</th>
+<th>'o': circle marker</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>'v': triangle_down marker</td>
+<td>'^': triangle_up marker</td>
+<td>'&lt;': triangle_left marker</td>
+</tr>
+<tr>
+<td>'&gt;': triangle_right marker</td>
+<td>'1': tri_down marker</td>
+<td>'2': tri_up marker</td>
+</tr>
+<tr>
+<td>'3': tri_left marker</td>
+<td>'4': tri_right marker</td>
+<td>'s': square marker</td>
+</tr>
+<tr>
+<td>'p': pentagon marker</td>
+<td>'*': star marker</td>
+<td>'h': hexagon1 marker</td>
+</tr>
+<tr>
+<td>'H': hexagon2 marker</td>
+<td>'+': plus marker</td>
+<td>'x': x marker</td>
+</tr>
+<tr>
+<td>'D': diamond marker</td>
+<td>'d': thin_diamond marker</td>
+<td>'|': vline marker</td>
+</tr>
+<tr>
+<td>'_': hline marker</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="_19">各种参数整体设计</h4>
+<p>将各个参数放在一起，如</p>
+<pre><code>plt.plot(x, y1, 'ro-')
+</code></pre>
+<h2 id="_20">图像窗口和布局</h2>
+<p>由于当前使用不多，因而在这里放置博客连接以供以后参考</p>
+<p><a href="https://blog.csdn.net/C_chuxin/article/details/83994457">https://blog.csdn.net/C_chuxin/article/details/83994457</a></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../numpy/" title="数组用法" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                数组用法
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../other/" title="其他" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                其他
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
