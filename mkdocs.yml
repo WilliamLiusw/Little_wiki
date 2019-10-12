@@ -1,3 +1,11 @@
-site_name: My Docs
+site_name: My Wiki
+nav:
+- 首页: 'index.md'
+- python相关:
+    - '数组用法': 'python/numpy.md'
+    - '图像绘制': 'python/matplotlib_pyplot.md'
+    - '其他' : 'python/other.md'
+- Linux相关:
+    - 'Linux命令行': 'Linux/linux.md'
 theme:
   name: 'material'
