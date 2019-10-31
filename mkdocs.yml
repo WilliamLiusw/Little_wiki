@@ -7,5 +7,13 @@ nav:
     - '其他' : 'python/other.md'
 - Linux相关:
     - 'Linux命令行': 'Linux/linux.md'
+- ROS相关:
+    - 'ROS命令集': 'ROS/ros.md'
+    - 'rospy': 'ROS/rospy.md'
+    - 'ros in C++': 'ROS/rosc.md'
+- proto相关:
+    - 'proto': 'Proto/proto.md'
+    - 'proto for python': 'Proto/protopy.md'
+    - 'proto for C++': 'Proto/protoc.md'
 theme:
   name: 'material'
