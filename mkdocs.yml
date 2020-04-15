@@ -7,6 +7,7 @@ nav:
     - '其他' : 'python/other.md'
 - Linux相关:
     - 'Linux命令行': 'Linux/linux.md'
+    - '后台运行': 'Linux/background.md'
 - ROS相关:
     - 'ROS命令集': 'ROS/ros.md'
     - 'rospy': 'ROS/rospy.md'
@@ -15,5 +16,9 @@ nav:
     - 'proto': 'Proto/proto.md'
     - 'proto for python': 'Proto/protopy.md'
     - 'proto for C++': 'Proto/protoc.md'
+- git相关:
+    - '建立本地仓库': 'Git/init.md'
+- conda相关:
+    - 'conda环境': 'Conda/env.md'
 theme:
   name: 'material'

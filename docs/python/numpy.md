@@ -17,6 +17,7 @@
 ## 矩阵的大小
 ### numpy.array类型
 支持 len, size, shape等用法
+
 对于矩阵 A (3, 4)
 
     len(A) = 3
