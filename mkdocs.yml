@@ -8,6 +8,7 @@ nav:
 - Linux相关:
     - 'Linux命令行': 'Linux/linux.md'
     - '后台运行': 'Linux/background.md'
+    - 'CPU使用相关': 'Linux/cpu_usage.md'
 - ROS相关:
     - 'ROS命令集': 'ROS/ros.md'
     - 'rospy': 'ROS/rospy.md'
@@ -17,7 +18,7 @@ nav:
     - 'proto for python': 'Proto/protopy.md'
     - 'proto for C++': 'Proto/protoc.md'
 - git相关:
-    - '建立本地仓库': 'Git/init.md'
+    - '一般使用方法总结': 'Git/usual_use.md'
 - conda相关:
     - 'conda环境': 'Conda/env.md'
 theme:

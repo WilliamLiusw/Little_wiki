@@ -10,3 +10,22 @@
 ## 数字的无穷大
 
     ans = float('inf')
+
+## 自定义Linux进程名
+
+    import setproctitle
+    setproctitle.setproctitle("your command name")
+
+## 关于时间
+
+### 程序运行时间计时
+
+    import time
+    time_start=time.time()
+    time_end=time.time()
+    print('time cost',time_end-time_start,'s')
+
+### 获取电脑当前时间
+
+    import time 
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())) 
