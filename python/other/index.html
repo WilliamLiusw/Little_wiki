@@ -267,6 +267,40 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    自定义Linux进程名
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    关于时间
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    程序运行时间计时
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    获取电脑当前时间
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -322,6 +356,18 @@
   <li class="md-nav__item">
     <a href="../../Linux/background/" title="后台运行" class="md-nav__link">
       后台运行
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Linux/cpu_usage/" title="CPU使用相关" class="md-nav__link">
+      CPU使用相关
     </a>
   </li>
 
@@ -476,8 +522,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Git/init/" title="建立本地仓库" class="md-nav__link">
-      建立本地仓库
+    <a href="../../Git/usual_use/" title="一般使用方法总结" class="md-nav__link">
+      一般使用方法总结
     </a>
   </li>
 
@@ -557,6 +603,40 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    自定义Linux进程名
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    关于时间
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    程序运行时间计时
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    获取电脑当前时间
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -582,6 +662,21 @@ print(内容 \033[显示方式;字体色;背景色m 内容[\033[0m 内容) # 使
 <p><img src="../pic/print_type.png" width = "300" alt="输出内容样式指令" align=center /></p>
 <h2 id="_2">数字的无穷大</h2>
 <pre><code>ans = float('inf')
+</code></pre>
+<h2 id="linux">自定义Linux进程名</h2>
+<pre><code>import setproctitle
+setproctitle.setproctitle("your command name")
+</code></pre>
+<h2 id="_3">关于时间</h2>
+<h3 id="_4">程序运行时间计时</h3>
+<pre><code>import time
+time_start=time.time()
+time_end=time.time()
+print('time cost',time_end-time_start,'s')
+</code></pre>
+<h3 id="_5">获取电脑当前时间</h3>
+<pre><code>import time 
+print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 </code></pre>
                 
                   

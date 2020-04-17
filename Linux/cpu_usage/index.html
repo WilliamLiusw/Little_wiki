@@ -36,7 +36,7 @@
     
     
       
-        <title>proto - My Wiki</title>
+        <title>CPU使用相关 - My Wiki</title>
       
     
     
@@ -75,7 +75,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#protobuf-introduction" tabindex="1" class="md-skip">
+      <a href="#cpu" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -101,7 +101,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                proto
+                CPU使用相关
               
             </span>
           
@@ -240,10 +240,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Linux相关
@@ -261,7 +263,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Linux/linux/" title="Linux命令行" class="md-nav__link">
+    <a href="../linux/" title="Linux命令行" class="md-nav__link">
       Linux命令行
     </a>
   </li>
@@ -273,7 +275,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Linux/background/" title="后台运行" class="md-nav__link">
+    <a href="../background/" title="后台运行" class="md-nav__link">
       后台运行
     </a>
   </li>
@@ -283,11 +285,103 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../Linux/cpu_usage/" title="CPU使用相关" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        CPU使用相关
+      </label>
+    
+    <a href="./" title="CPU使用相关" class="md-nav__link md-nav__link--active">
       CPU使用相关
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cpu_1" class="md-nav__link">
+    CPU使用率限制
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cpulimit" class="md-nav__link">
+    cpulimit
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    下载
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    部署
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    使用方法
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    其他方法
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cpu_2" class="md-nav__link">
+    CPU使用情况查询
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -360,12 +454,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
     
     <label class="md-nav__link" for="nav-5">
       proto相关
@@ -381,49 +473,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        proto
-      </label>
-    
-    <a href="./" title="proto" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../Proto/proto/" title="proto" class="md-nav__link">
       proto
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#message" class="md-nav__link">
-    message形式
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -433,7 +487,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../protopy/" title="proto for python" class="md-nav__link">
+    <a href="../../Proto/protopy/" title="proto for python" class="md-nav__link">
       proto for python
     </a>
   </li>
@@ -445,7 +499,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../protoc/" title="proto for C++" class="md-nav__link">
+    <a href="../../Proto/protoc/" title="proto for C++" class="md-nav__link">
       proto for C++
     </a>
   </li>
@@ -549,8 +603,62 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#message" class="md-nav__link">
-    message形式
+  <a href="#cpu_1" class="md-nav__link">
+    CPU使用率限制
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cpulimit" class="md-nav__link">
+    cpulimit
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    下载
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    部署
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    使用方法
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    其他方法
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cpu_2" class="md-nav__link">
+    CPU使用情况查询
   </a>
   
 </li>
@@ -572,18 +680,53 @@
               
                 
                 
-                <h1 id="protobuf-introduction">Protobuf introduction</h1>
-<p>protobuf是Google开发的一个序列化框架，类似XML，JSON，基于二进制，比传统的XML表示同样一段内容要短小得多。通过protobuf，可以很轻松的调用相关方法来完成业务数据的序列化与反序列化。</p>
-<p><a href="https://developers.google.com/protocol-buffers/docs/pythontutorial">来自谷歌的主要参考文献</a></p>
-<h2 id="message">message形式</h2>
-<pre><code>message A{
-    repeated string b;
-    optional int32 c;
-}
+                <h1 id="cpu">CPU使用相关</h1>
+<h2 id="cpu_1">CPU使用率限制</h2>
+<h3 id="cpulimit">cpulimit</h3>
+<p>来官方的介绍：</p>
+<p>cpulimit is a simple program that attempts to limit the cpu usage of a process (expressed in percentage, not in cpu time). This is useful to control batch jobs, when you don't want them to eat too much cpu. It does not act on the nice value or other scheduling priority stuff, but on the real cpu usage. Also, it is able to adapt itself to the overall system load, dynamically and quickly.</p>
+<p>该程序控制的是CPU的使用率</p>
+<h4 id="_1">下载</h4>
+<p>官方地址下载安装包</p>
+<p><a href="http://cpulimit.sourceforge.net/">http://cpulimit.sourceforge.net/</a></p>
+<p>或</p>
+<pre><code>svn checkout https://cpulimit.svn.sourceforge.net/svnroot/cpulimit/trunkcpulimit
+</code></pre>
+<h4 id="_2">部署</h4>
+<pre><code>cd $cpulimit_home
+make 
+# 转移到/usr/bin文件夹
+cp ./cpulimit /usr/bin
+</code></pre>
+<h4 id="_3">使用方法</h4>
+<blockquote>
+<p>Usage: cpulimit TARGET [OPTIONS...]</p>
+<p>TARGET must be exactly one of these:</p>
+<p>&emsp;     -p, --pid=N        pid of the process (implies -z)</p>
+<p>&emsp;     -e, --exe=FILE     name of the executable program file or absolute path name</p>
+<p>OPTIONS</p>
+<p>&emsp;  -l, --limit=N      percentage of cpu allowed from 0 to 100 (required)</p>
+<p>&emsp;  -v, --verbose      show control statistics</p>
+<p>&emsp;  -z, --lazy         exit if there is no suitable target process, or if it dies</p>
+<p>&emsp;  -h, --help         display this help and exit</p>
+</blockquote>
+<p>例如限制端口号为2816的程序使用CPU 55%：</p>
+<pre><code>sudo cpulimit -p 2816 -l 55
+</code></pre>
+<p>使用sudo权限可以更好的工作</p>
+<p>需要注意的是，-e要使用可执行文件，然后如果电脑有多个CPU的话可能不太适用，这个会将限制控制在100%以内，但是多个CPU的话可以超过100%，或许可以参考对每个线程或每个CPU上的使用进行分别的限制。</p>
+<h3 id="_4">其他方法</h3>
+<p>暂时可以参考文献</p>
+<p><a href="https://blog.csdn.net/fengmm521/article/details/78446439">https://blog.csdn.net/fengmm521/article/details/78446439</a></p>
+<h2 id="cpu_2">CPU使用情况查询</h2>
+<pre><code># 查询全部用户使用情况
+top
+# 之后在按下1就可以看到各个CPU的使用情况，或直接使用命令
+top -d 1
 
-message D{
-    required A a;
-}
+
+# 查询某个用户
+top | grep $user_name
 </code></pre>
                 
                   
@@ -605,7 +748,7 @@ message D{
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../ROS/rosc/" title="ros in C++" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../background/" title="后台运行" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -614,19 +757,19 @@ message D{
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                ros in C++
+                后台运行
               </span>
             </div>
           </a>
         
         
-          <a href="../protopy/" title="proto for python" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../ROS/ros/" title="ROS命令集" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                proto for python
+                ROS命令集
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
